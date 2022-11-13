@@ -1,0 +1,12 @@
+{
+  "PIN_TDS": 3,
+  "DUTY_CYCLE": 50,
+  "FREQUENCY": 490,
+  "engines": {
+    "2": {
+      "pwm": 7,
+      "1": 29,
+      "2": 28
+    }
+  }
+}
