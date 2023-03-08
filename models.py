@@ -4,9 +4,11 @@ from pydantic import BaseModel
 
 
 class Engine(BaseModel):
-    id: int
+    id1: int
+    id2: Optional[int]
 
 
 class EngineOn(Engine):
     speed: float
-    reverse: Optional[bool] = False
+    reverse1: Optional[bool] = False
+    reverse2: Optional[bool] = False
